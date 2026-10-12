@@ -1,0 +1,2 @@
+# Keep the timestamped/hash-chained files byte-exact (no line-ending conversion), otherwise sha256 of stamp-*.txt changes on checkout and the OpenTimestamps proof stops matching
+trackrecord/** -text

@@ -1,0 +1,14 @@
+{
+  "name": "vigil",
+  "version": "0.1.0",
+  "description": "Walk-forward tests for betting markets: 24/7 odds capture, honest validation, hash-chained track record.",
+  "license": "MIT",
+  "private": false,
+  "engines": { "node": ">=22 <23" },
+  "scripts": {
+    "capture": "node src/run.js",
+    "status": "node src/status.js",
+    "verify-record": "node src/trackrecord.js --verify"
+  },
+  "dependencies": { "better-sqlite3": "^11.3.0" }
+}

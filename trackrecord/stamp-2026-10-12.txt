@@ -1,0 +1,6 @@
+GoalX track record - head snapshot
+chain rows: 1857
+head (sha256 chain): 6131f5cf480d7849b265c23c871795fd2dcd4232235b6ee50e6481d5940ad4a9
+first decision: 2026-10-06T14:58:22.931Z
+last decision: 2026-10-12T08:29:22.506Z
+method: h = sha256(prev_h + JSON(row)); see trackrecord/README.md
